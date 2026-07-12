@@ -1,5 +1,11 @@
 {
-  "devDependencies": {
-    "vite": "^8.1.4"
+  "name": "maintainiq-hackathon",
+  "private": true,
+  "scripts": {
+    "build": "npm install --prefix MaintainIQ-Main --no-audit --no-fund && npm --prefix MaintainIQ-Main run build",
+    "dev": "npm --prefix MaintainIQ-Main run dev"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
